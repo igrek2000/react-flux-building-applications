@@ -24,7 +24,7 @@ var AuthorActions = {
 			console.log('>>> AuthorActions.createAuthor --- AFTER Dispatcher.dispatch --- actionType: ActionTypes.CREATE_AUTHOR');
 		}, 3000);
 
-		// Hey dispatcher, go tell all the stores that an author was just created.
+		// Hey dispatcher, go tell all the stores that an author was just created!
 		// Dispatcher.dispatch({
 		// 	actionType: ActionTypes.CREATE_AUTHOR,
 		// 	author: newAuthor
